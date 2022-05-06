@@ -14,15 +14,19 @@ function App() {
     setRecipes((currentRecipes) => [...currentRecipes, newRecipe]);
   };
 
-  const deleteRecipe = () => {};
+  const deleteRecipe = (indexToDelete) => {
+    setRecipes((currentRecipes) =>
+      currentRecipes.filter((_, index) => index !== indexToDelete)
+    );
+  };
 
-  console.log(recipes);
+  // console.log(recipes);
   return (
     <div className="App">
       <header>
         <h1>Delicious Food Recipes</h1>
       </header>
-      <RecipeList recipesArray={recipes} deleteRecipe={deleteRecipe}/>
+      <RecipeList recipesArray={recipes} deleteRecipe={deleteRecipe} />
       <RecipeCreate makeRecipe={createRecipe} />
     </div>
   );
