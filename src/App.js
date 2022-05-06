@@ -21,11 +21,9 @@ function App() {
   };
 
   const deleteRecipe2 = (indexToDelete) => {
-    setRecipes((currentRecipes) => {
-      const a = currentRecipes.slice(indexToDelete, 1);
-      console.log(a);
-      return currentRecipes;
-    });
+    const array = [...recipes];
+    array.splice(indexToDelete, 1);
+    setRecipes(array);
   };
 
   // console.log(recipes);
