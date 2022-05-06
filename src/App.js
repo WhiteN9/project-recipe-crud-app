@@ -15,9 +15,17 @@ function App() {
   };
 
   const deleteRecipe = (indexToDelete) => {
-    setRecipes((currentRecipes) =>
-      currentRecipes.filter((_, index) => index !== indexToDelete)
-    );
+    setRecipes((currentRecipes) => {
+      return currentRecipes.filter((_, index) => index !== indexToDelete);
+    });
+  };
+
+  const deleteRecipe2 = (indexToDelete) => {
+    setRecipes((currentRecipes) => {
+      const a = currentRecipes.slice(indexToDelete, 1);
+      console.log(a);
+      return currentRecipes;
+    });
   };
 
   // console.log(recipes);

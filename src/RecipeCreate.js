@@ -40,6 +40,7 @@ function RecipeCreate({ makeRecipe }) {
                 onChange={handleChange}
                 required
                 placeholder="Name"
+                autoFocus
               ></input>
             </td>
             <td>

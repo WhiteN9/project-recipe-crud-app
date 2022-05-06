@@ -9,10 +9,10 @@ export const RecipeListItem = (recipe) => {
       <td>
         <img src={recipe.photo} alt="food phot" />
       </td>
-      <td>
+      <td className="content_td">
         <p>{recipe.ingredients}</p>
       </td>
-      <td>
+      <td className="content_td">
         <p>{recipe.preparation}</p>
       </td>
       <td>
