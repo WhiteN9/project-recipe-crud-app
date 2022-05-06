@@ -14,7 +14,7 @@ function App() {
     setRecipes((currentRecipes) => [...currentRecipes, newRecipe]);
   };
 
-  const createList = () => {};
+  const deleteRecipe = () => {};
 
   console.log(recipes);
   return (
@@ -22,7 +22,7 @@ function App() {
       <header>
         <h1>Delicious Food Recipes</h1>
       </header>
-      <RecipeList recipesArray={recipes} makeList={createList}/>
+      <RecipeList recipesArray={recipes} deleteRecipe={deleteRecipe}/>
       <RecipeCreate makeRecipe={createRecipe} />
     </div>
   );
