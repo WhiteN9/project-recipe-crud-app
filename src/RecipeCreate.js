@@ -43,7 +43,50 @@ function RecipeCreate({ makeRecipe }) {
               ></input>
             </td>
             <td>
-
+              <label htmlFor="cuisine"></label>
+              <input
+                id="cuisine"
+                type="text"
+                name="cuisine"
+                value={dataForm.cuisine}
+                onChange={handleChange}
+                required
+                placeholder="Cuisine"
+              ></input>
+            </td>
+            <td>
+              <label htmlFor="photo"></label>
+              <input
+                id="photo"
+                type="text"
+                name="photo"
+                value={dataForm.photo}
+                onChange={handleChange}
+                required
+                placeholder="URL"
+              ></input>
+            </td>
+            <td>
+              <label htmlFor="ingredients"></label>
+              <textarea
+                id="ingredients"
+                name="ingredients"
+                value={dataForm.ingredients}
+                onChange={handleChange}
+                required
+                placeholder="Ingredients"
+              ></textarea>
+            </td>
+            <td>
+              <label htmlFor="preparation"></label>
+              <textarea
+                id="preparation"
+                name="preparation"
+                value={dataForm.preparation}
+                onChange={handleChange}
+                required
+                placeholder="Preparation"
+              ></textarea>
             </td>
             <td>
               <button type="submit">Create</button>
