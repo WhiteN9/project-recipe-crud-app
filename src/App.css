@@ -19,19 +19,21 @@ html {
   font-family: 'helvetica neue', sans-serif;
 }
 
-thead th, tfoot th {
+thead th,
+tfoot th {
   font-family: 'Rock Salt';
 }
 
 th {
   letter-spacing: 2px;
   padding: 10px;
+  word-wrap: break-word;
 }
 
 td {
   letter-spacing: 1px;
-  overflow-x:hidden;
-  overflow-y:hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
   font-size: 12px;
   padding: 10px;
   text-align: center;
@@ -43,7 +45,7 @@ table {
   table-layout: fixed;
   width: 100%;
   border-collapse: collapse;
-  overflow:hidden;
+  overflow: hidden;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -61,10 +63,12 @@ table {
 
 /* Column size for tbody */
 
-th .short {
-  flex: 1;
+tr .short {
+  border: 1px solid blue;
+  width: 25%;
 }
 
-th .long {
-  flex: 2;
+tr .long {
+  border: 1px solid red;
+  width: 100%;
 }

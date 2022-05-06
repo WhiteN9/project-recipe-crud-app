@@ -11,20 +11,26 @@ function RecipeList({ recipesArray }) {
       <table>
         <thead>
           <tr>
-            <th>Name</th>
-            <th>Cuisine</th>
-            <th>Photo</th>
-            <th>Ingredients</th>
-            <th>Actions</th>
+            <th className="short">Name</th>
+            <th className="short">Cuisine</th>
+            <th className="short">Photo</th>
+            <th className="long">Ingredients</th>
+            <th className="long">Preparation</th>
+            <th className="short">Actions</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <th className="short">{recipesArray[0].name}</th>
-            <th className="short">{recipesArray[0].cuisine}</th>
-            <th className="short">{recipesArray[0].photo}</th>
-            <th className="long">{recipesArray[0].ingredients}</th>
-            <th className="long">{recipesArray[0].preparation}</th>
+            <td className="short">{recipesArray[0].name}</td>
+            <td className="short">{recipesArray[0].cuisine}</td>
+            <td className="short">{recipesArray[0].photo}</td>
+            <td className="long content_td">
+              <p>{recipesArray[0].ingredients}</p>
+            </td>
+            <td className="long content_td">
+              <p>{recipesArray[0].preparation}</p>
+            </td>
+            <td className="short"></td>
           </tr>
         </tbody>
       </table>
