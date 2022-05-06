@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/project-recipe-crud-app/static/css/main.86213758.chunk.css",
-    "main.js": "/project-recipe-crud-app/static/js/main.fbffbf5b.chunk.js",
-    "main.js.map": "/project-recipe-crud-app/static/js/main.fbffbf5b.chunk.js.map",
+    "main.css": "/project-recipe-crud-app/static/css/main.929a5359.chunk.css",
+    "main.js": "/project-recipe-crud-app/static/js/main.fd6cb142.chunk.js",
+    "main.js.map": "/project-recipe-crud-app/static/js/main.fd6cb142.chunk.js.map",
     "runtime-main.js": "/project-recipe-crud-app/static/js/runtime-main.a3cda1c4.js",
     "runtime-main.js.map": "/project-recipe-crud-app/static/js/runtime-main.a3cda1c4.js.map",
     "static/js/2.6d741cec.chunk.js": "/project-recipe-crud-app/static/js/2.6d741cec.chunk.js",
     "static/js/2.6d741cec.chunk.js.map": "/project-recipe-crud-app/static/js/2.6d741cec.chunk.js.map",
     "index.html": "/project-recipe-crud-app/index.html",
-    "precache-manifest.9c9234fd5cd9a317535c692429380de8.js": "/project-recipe-crud-app/precache-manifest.9c9234fd5cd9a317535c692429380de8.js",
+    "precache-manifest.48a413e02b0a6303cfb124663db36568.js": "/project-recipe-crud-app/precache-manifest.48a413e02b0a6303cfb124663db36568.js",
     "service-worker.js": "/project-recipe-crud-app/service-worker.js",
-    "static/css/main.86213758.chunk.css.map": "/project-recipe-crud-app/static/css/main.86213758.chunk.css.map",
+    "static/css/main.929a5359.chunk.css.map": "/project-recipe-crud-app/static/css/main.929a5359.chunk.css.map",
     "static/js/2.6d741cec.chunk.js.LICENSE.txt": "/project-recipe-crud-app/static/js/2.6d741cec.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a3cda1c4.js",
     "static/js/2.6d741cec.chunk.js",
-    "static/css/main.86213758.chunk.css",
-    "static/js/main.fbffbf5b.chunk.js"
+    "static/css/main.929a5359.chunk.css",
+    "static/js/main.fd6cb142.chunk.js"
   ]
 }

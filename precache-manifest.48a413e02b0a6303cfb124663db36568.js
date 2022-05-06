@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "537ebe3e2c2cdea343b6eafc7458664b",
+    "revision": "3437f265138a4ec367f072c553dc2066",
     "url": "/project-recipe-crud-app/index.html"
   },
   {
-    "revision": "d46f619488c796010978",
-    "url": "/project-recipe-crud-app/static/css/main.86213758.chunk.css"
+    "revision": "bde0eb13f92f2e3481ae",
+    "url": "/project-recipe-crud-app/static/css/main.929a5359.chunk.css"
   },
   {
     "revision": "f394498dd0083a989c2b",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/project-recipe-crud-app/static/js/2.6d741cec.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d46f619488c796010978",
-    "url": "/project-recipe-crud-app/static/js/main.fbffbf5b.chunk.js"
+    "revision": "bde0eb13f92f2e3481ae",
+    "url": "/project-recipe-crud-app/static/js/main.fd6cb142.chunk.js"
   },
   {
     "revision": "17e984d3c80bcf9688a7",

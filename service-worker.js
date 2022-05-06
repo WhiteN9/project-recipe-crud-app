@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/project-recipe-crud-app/precache-manifest.9c9234fd5cd9a317535c692429380de8.js"
+  "/project-recipe-crud-app/precache-manifest.48a413e02b0a6303cfb124663db36568.js"
 );
 
 self.addEventListener('message', (event) => {
