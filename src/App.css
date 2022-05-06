@@ -23,6 +23,12 @@ html {
   font-family: 'helvetica neue', sans-serif;
 }
 
+h1 {
+  font-family: 'Playfair Display SC';
+  text-align: center;
+  size: 64px;
+}
+
 thead th,
 tfoot th {
   font-family: 'Rock Salt';
@@ -62,17 +68,17 @@ table {
 
 /* Column Size for thead */
 
+tr:nth-child(odd) {
+  background-color: #fff0c7;
+}
 
+th:nth-child(even) {
+  border: 1px solid blue;
+}
 
 
 /* Column size for tbody */
 
-tr .short {
-  border: 1px solid blue;
-  width: 25%;
-}
-
-tr .long {
-  border: 1px solid red;
-  width: 100%;
+td:nth-child(even) {
+  order: 1px solid red;
 }

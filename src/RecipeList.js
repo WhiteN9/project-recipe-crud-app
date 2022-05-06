@@ -23,12 +23,12 @@ function RecipeList({ recipesArray, deleteRecipe }) {
       <table>
         <thead>
           <tr>
-            <th className="short">Name</th>
-            <th className="short">Cuisine</th>
-            <th className="short">Photo</th>
-            <th className="long">Ingredients</th>
-            <th className="long">Preparation</th>
-            <th className="short">Actions</th>
+            <th>Name</th>
+            <th>Cuisine</th>
+            <th>Photo</th>
+            <th>Ingredients</th>
+            <th>Preparation</th>
+            <th>Actions</th>
           </tr>
         </thead>
         <tbody>{recipeList}</tbody>
