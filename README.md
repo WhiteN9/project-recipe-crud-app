@@ -1,4 +1,4 @@
-# project-recipe-crud-app
+# Recipe Tracking App
 
 A simple CRUD application allows a user to create, read, update or delete selected data. 
 
