@@ -4,6 +4,8 @@ A simple CRUD application allows a user to create, read, update or delete select
 
 This project is designed to test the ability to work with rendering and state management using React. 
 
+![recipe-tracking-app](https://user-images.githubusercontent.com/39269842/169885889-bd9a9816-f3ac-4363-b3e5-bfd13cf89472.png)
+
 Objectives:
 - Installing packages via NPM
 - Running tests from the command line
